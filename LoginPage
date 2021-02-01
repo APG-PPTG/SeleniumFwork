@@ -1,4 +1,9 @@
 // This is a Page Object file used as a OR in Selenium
+// Step 1: Create a Maven Project, In Eclipse File --> New --> Other --> Search Maven --> Maven Project --> Next --> Group ID "org.apache.maven.archetypes", Artifact ID "maven-archetype-simple"
+// This will create 2 packages by default one in src/test/java and one in src/main/java delete them as we will create our own
+// POM.xml will be automatically created inside this maven project which will hold all the dependencies
+// Go to this POM.xml and add all the Maven Dependencies
+
 package com.nopcommerce.pageObjects;
 
 import org.openqa.selenium.WebDriver;
